@@ -28,7 +28,7 @@ function generatePassword() {
     (pwdLength >128)) {
       pwdLength = prompt("Please choose between 8-128")
     }
-  }
+  } 
 
   var pwdLowercase = confirm("Would you like lowercase letters in your password?")
   var pwdUppercase = confirm("Would you like uppercase letters in your password?")
@@ -111,6 +111,7 @@ function generatePassword() {
       password += chars.special.charAt(char)
     }
   }
+  
   return password
 
 }
