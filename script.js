@@ -2,6 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
+  var password = ""
   var chars = {
     all: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!#$%&*+/:;<=>?@\^_`{|}~",
     notUpper: "abcdefghijklmnopqrstuvwxyz1234567890!#$%&*+/:;<=>?@\^_`{|}~",
